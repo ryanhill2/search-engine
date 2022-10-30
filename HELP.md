@@ -1,20 +1,30 @@
-# Getting Started
+# Getting Started - Ryan's Coding Challenge
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Dev Set up
+To run this project you will need a few thing installed on your machine:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.5/maven-plugin/reference/html/#build-image)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.7.5/reference/htmlsingle/#data.sql.jpa-and-spring-data)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.7.5/reference/htmlsingle/#web)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.7.5/reference/htmlsingle/#using.devtools)
+- [ For the backend API ] Spring Boot and java was used
+* Java - Java 17 OpenJDK was used for this development
+* Maven - Maven 3.8.6 was used in development
 
-### Guides
-The following guides illustrate how to use some features concretely:
+- [ For the UI ] React was used
+* Node - Node 18.11.0 was used for this development
+* NPM - 8.19.2 was used for this development
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+- [ For the UI ] React was used
+* Python3 - Python 3.9.7 was used for this development 
 
+### Run the project
+- [ For the backend API ]
+* In the root of the project build the project with `mvn clean install`
+* In the root of the project run the project with `mvn spring-boot:run`
+
+- [ For the UI ]
+* In the root of the project run `npm install`
+* In the root of the project run `npm start`
+
+- [ For the python script ]
+- * pip install -r requirements.txt
+
+- [ For the docker-compose ]
+- * docker-compose up
